@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class HomePage {
 
     public void openHomePage(){
-        WebdriverInstance.driver.get("https://www.wikipedia.com/");                                             // call WebdriverInstance class
+        WebdriverInstance.driver.get("https://bulbapedia.bulbagarden.net/wiki/Main_Page");                                             // call WebdriverInstance class
     }
 
     public void inputSearch(String keyword){
