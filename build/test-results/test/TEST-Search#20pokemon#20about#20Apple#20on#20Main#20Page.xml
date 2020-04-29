@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search pokemon about Apple on Main Page" tests="9" skipped="5" failures="2" errors="0" timestamp="2020-04-29T08:34:54" hostname="DNID0651L01.local" time="17.841">
+  <properties/>
+  <testcase name="User open Bulbapedia Main page" classname="Search pokemon about Apple on Main Page" time="6.0"/>
+  <testcase name="User input search &quot;Pikachu&quot; on home page" classname="Search pokemon about Apple on Main Page" time="0.269"/>
+  <testcase name="User click button search on home page" classname="Search pokemon about Apple on Main Page" time="11.417">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=81.0.4044.129)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DNID0651L01.local', ip: 'fe80:0:0:0:1c9e:9069:4445:cd15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/ws/kthrtbsd3n9...}, goog:chromeOptions: {debuggerAddress: localhost:53581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 647baec6e4448defd534fbf122ffb222" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DNID0651L01.local', ip: 'fe80:0:0:0:1c9e:9069:4445:cd15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/ws/kthrtbsd3n9...}, goog:chromeOptions: {debuggerAddress: localhost:53581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 647baec6e4448defd534fbf122ffb222
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at demo.pages.HomePage.clickSearch(HomePage.java:20)
+	at demo.steps.WikipediaStepsDefinition.userClickButtonSearchOnHomePage(WikipediaStepsDefinition.java:37)
+	at ✽.User click button search on home page(file:///Users/sihalohoo/IdeaProjects/Web_Oriani/src/test/resources/features/SearchWikipedia.feature:7)
+</failure>
+  </testcase>
+  <testcase name="User see article with title &quot;Pikachu&quot; on article page" classname="Search pokemon about Apple on Main Page" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="User open Bulbapedia Main page" classname="Search pokemon about Apple on Main Page" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="User input search &quot;Apple&quot; on Main page" classname="Search pokemon about Apple on Main Page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="User click button search on Main page" classname="Search pokemon about Apple on Main Page" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="User see article with title &quot;Apple&quot; on article page" classname="Search pokemon about Apple on Main Page" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Search pokemon about Apple on Main Page" time="19.708">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=81.0.4044.129)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DNID0651L01.local', ip: 'fe80:0:0:0:1c9e:9069:4445:cd15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '11.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/ws/kthrtbsd3n9...}, goog:chromeOptions: {debuggerAddress: localhost:53581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 647baec6e4448defd534fbf122ffb222" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=81.0.4044.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DNID0651L01.local', ip: 'fe80:0:0:0:1c9e:9069:4445:cd15%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/ws/kthrtbsd3n9...}, goog:chromeOptions: {debuggerAddress: localhost:53581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 647baec6e4448defd534fbf122ffb222
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at demo.pages.HomePage.clickSearch(HomePage.java:20)
+	at demo.steps.WikipediaStepsDefinition.userClickButtonSearchOnHomePage(WikipediaStepsDefinition.java:37)
+	at ✽.User click button search on home page(file:///Users/sihalohoo/IdeaProjects/Web_Oriani/src/test/resources/features/SearchWikipedia.feature:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 28199
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 29, 2020 3:34:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1588149295.824][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149295.927][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.029][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.130][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.232][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.333][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.435][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.537][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.639][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.741][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.843][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149296.945][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.047][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.248][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.350][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.451][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.552][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.756][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.858][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149297.960][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.063][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.165][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.267][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.370][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.471][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.574][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.677][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.780][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.882][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149298.985][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149299.087][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149299.189][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149299.291][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149299.394][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149299.496][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149299.598][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149299.701][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149299.804][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149300.296][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149300.399][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149306.115][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149306.216][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149306.367][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149306.567][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149306.670][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149306.849][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149306.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149307.052][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588149307.231][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>
