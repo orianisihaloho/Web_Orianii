@@ -1,5 +1,5 @@
 @Web
-Feature: Search Wikipedia
+Feature: Search Bulbapedia
   Scenario: Search pokemon about Apple on Main Page
 
     Given User open Bulbapedia Main page
